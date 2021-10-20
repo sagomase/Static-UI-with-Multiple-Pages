@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Static UI Page</title>
+        
+    <style>
+        
+        
+        .div1{
+            height: 200px;
+            width: 100%;
+            background-image: linear-gradient(rgba(97, 92, 92, 0.75),rgba(102, 95, 95, 0.75)), url('Image.jpg');
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            background-attachment: local;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: large;
+            text-align:right; 
+        }
+        .div2{
+            width: 85%;
+            margin: auto;
+            padding: 35px 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+        }
+    
+        .div6{
+            height: 250px;
+            width: 50%;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            float: left;
+            font-size: large;
+        
+        }
+        .div7{
+            height: 250px;
+            width: 50%;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: large;
+            text-align: center;
+            float: left;
+            
+        }
+        .div8{
+            height: 250px;
+            width: 98.5%;
+            background-color: #ccc0c0;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            padding: 10px;
+            float: left;
+            
+        }
+
+        .div2 ul {
+            list-style-type: none;
+            line-height: 100px;  
+            position: relative;
+        }
+        .div2 ul li{
+            display: inline;
+            list-style: none;
+            margin: 0 20px;
+            position: relative;
+        }
+         
+        .div2 ul li::after{
+            content:'';
+            height: 3px;
+            width: 0;
+            background:rgb(240, 149, 30);
+            position: absolute;
+            left: 30px;
+            bottom: -5px;
+            transition: 0.5s;
+        }
+        .div2 ul li:hover::after{
+            width: 60%;
+        }
+        .div2 a{
+            width: 240px;
+            background-color:transparent;
+            color: rgb(240, 149, 30);
+            padding: 10px;
+            margin: 30px;
+            text-align: center;
+            text-decoration: none;
+        }
+
+        .div3 p{
+            padding: 10px;
+        }
+        .div4 p{
+            padding: 10px;
+        }
+        .div5 p{
+            padding: 10px;
+        }
+        .div6 p{
+            padding: 10px;
+        }
+        .div7 p{
+            padding: 10px;
+        }
+        .img{
+            height: 60px;
+            width: 60px;
+            
+        }
+        
+        .foot_menu{
+            float:left;
+            width: 33%;
+        }
+        .foot_menu h3{
+            font-size: 18px;
+            padding: 10px;
+            text-align: left;
+        }
+        .foot_menu ul{
+            padding: 10px;
+            margin: 0;
+            list-style: none;
+            text-align: left;
+        }
+        .foot_menu ul li a{
+            font-size: 18px;
+            line-height: 20px;
+            
+        }
+        .foot_menu ul li:hover{
+            color: tomato;
+            cursor: pointer;
+        }
+
+    
+    </style>
+    </head>
+</html>
+<body>
+    
+    <div class="div1">
+      <div class="div2">
+        <img src="college.png" class="img"alt="Image">
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="activity.html">Activity</a></li>
+            <li><a href="campusfacility.html">Campus Facility</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+        </ul>
+    </div>
+    </div>
+
+    
+    <div class="div6">
+        <p>
+            "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."
+        </p>
+    </div>
+    <div class="div7">
+        <p>
+            "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."
+        </p>
+    </div>
+    <div class="div8">
+            <div class="foot_menu">
+               <h3>Portals</h3>
+               <ul>
+                   <li><a href="#"></a>Faculty Information System</li><hr>
+                   <li><a href="#"></a>Leave Management System</li><hr>
+                   <li><a href="#"></a>Alumni Portal</li><hr>
+                   <li><a href="#"></a>Online Test Portal</li><hr>
+               </ul>
+           </div>
+           <div class="foot_menu">
+               <h3>Educational Links</h3>
+               <ul>
+                <li><a href="#"></a>Gate 2021</li><hr>
+                <li><a href="#"></a>GRE</li><hr>
+                <li><a href="#"></a>TOEFL</li><hr>
+                <li><a href="#"></a>GMAT</li><hr>
+               </ul>
+            </div> 
+           <div class="foot_menu">
+                <h3>Quick Links</h3>
+                <ul>
+                <li><a href="#"></a>PH-D Admission 2020-21 </li><hr>
+                <li><a href="#"></a>First Year Admission</li><hr>
+                <li><a href="#"></a>Result (Summer 2020)</li><hr>
+                <li><a href="#"></a>Summer 2020 Exam Schedule & Guidelines</li><hr>
+                </ul>
+            </div>
+        
+    </div>
+
+</body>
